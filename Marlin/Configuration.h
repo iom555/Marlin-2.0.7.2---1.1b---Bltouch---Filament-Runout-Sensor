@@ -739,7 +739,7 @@
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.5, 80.5, 421.1, 159.5 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.19, 79.78, 427.11, 159.5 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -984,7 +984,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -42, -7, -2.75 } //alfaE3PRO
+#define NOZZLE_TO_PROBE_OFFSET { -42, -7, -2.70 } //alfaE3PRO
 
 //#define NOZZLE_TO_PROBE_OFFSET { -42, -7, 0 } //origine
 
